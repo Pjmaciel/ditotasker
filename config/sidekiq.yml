@@ -1,7 +1,9 @@
----
 :concurrency: 5
 :queues:
   - default
   - mailers
+  - low
+  - high
+
 :redis:
-  url: redis://redis:6380/0
+  url: <%= ENV["REDIS_URL"] %>

@@ -84,3 +84,5 @@ group :test do
   gem 'rspec-rails'        # Rails testing framework
   gem 'selenium-webdriver' # UI testing with Selenium
 end
+
+gem "dockerfile-rails", ">= 1.7", :group => :development
