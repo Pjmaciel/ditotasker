@@ -142,6 +142,8 @@ GEM
       warden-jwt_auth (~> 0.10)
     diff-lcs (1.5.1)
     docile (1.4.1)
+    dockerfile-rails (1.7.5)
+      rails (>= 3.0.0)
     drb (2.2.1)
     dry-auto_inject (1.1.0)
       dry-core (~> 1.1)
@@ -455,6 +457,7 @@ DEPENDENCIES
   debug
   devise
   devise-jwt
+  dockerfile-rails (>= 1.7)
   factory_bot_rails
   faker
   graphql
