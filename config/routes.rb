@@ -3,6 +3,10 @@
 require 'sidekiq/web'
 
 Rails.application.routes.draw do
+
+  # Health check for Fly.io
+  get '/up' => proc { [200, {}, ['OK']] }
+
   #  principal
   root 'pages#construction'
 
