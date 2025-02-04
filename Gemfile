@@ -30,6 +30,7 @@ gem 'sidekiq'              # Background job processing
 gem 'sidekiq-cron'         # Cron job scheduling for Sidekiq
 
 # --- Documentation ---
+gem 'rails-erd'
 gem 'redoc-rails'          # API documentation viewer
 gem 'rswag'                # OpenAPI/Swagger documentation generator
 
